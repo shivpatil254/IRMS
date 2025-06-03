@@ -614,4 +614,5 @@ if __name__ == '__main__':
     print("Make sure you have installed: pip install flask flask-cors nltk spacy")
     print("And downloaded: python -m spacy download en_core_web_sm")
     print("Server will be available at: http://localhost:5000")
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=False, host='0.0.0.0', port=port)
