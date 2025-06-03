@@ -4,3 +4,4 @@ nltk==3.8.1
 spacy==3.5.3
 pandas==2.0.3
 Pillow==10.0.0
+gunicorn==21.2.0
