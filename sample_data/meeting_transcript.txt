@@ -1,0 +1,17 @@
+Meeting Notes - Project Planning Session
+
+Attendees: John (Product Manager), Sarah (Tech Lead), Mike (Business Analyst)
+
+John: Thanks for joining today. We need to discuss the new customer portal requirements.
+
+Sarah: Absolutely. From what I understand, users need to be able to create and manage their own profiles. The system should allow them to update personal information, change passwords, and upload profile pictures.
+
+Mike: Right, and we also need to implement a comprehensive search feature. Managers must be able to find specific user accounts quickly using various filters like name, email, or registration date.
+
+John: Good point. The system should also generate monthly activity reports automatically. We want to track user engagement and login patterns.
+
+Sarah: We'll need to ensure the admin users can deactivate accounts when necessary. It should be a soft delete, so we can reactivate if needed.
+
+Mike: Customer support team needs to view user activity logs. They should be able to see login history, profile changes, and any support tickets.
+
+John: One more thing - we need to integrate with our existing email system. Users should receive notifications for important account activities.
