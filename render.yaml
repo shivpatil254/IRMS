@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: irms
+    env: python
+    buildCommand: "pip install -r requirements.txt && python -m spacy download en_core_web_sm"
+    startCommand: "python app.py"
+    envVars:
+      - key: PORT
+        value: 5000
