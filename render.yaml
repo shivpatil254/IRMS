@@ -2,5 +2,5 @@ services:
   - type: web
     name: irms
     env: python
-    buildCommand: "pip install -r requirements.txt && python -m spacy download en_core_web_sm"
-    startCommand: "python app.py"
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt && python -m spacy download en_core_web_sm"
+    startCommand: "gunicorn app:app"
